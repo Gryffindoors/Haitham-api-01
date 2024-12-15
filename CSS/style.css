@@ -1,0 +1,65 @@
+.img-logo{
+    height: 25px;
+}
+.light-mode{
+    text-align: center;
+}
+.p-image{
+    height: 100px;
+    transition: ease-in-out 1s;
+    margin: auto;
+    width: 25%;
+}
+.p-image:hover{
+    transform: scale(1.1);
+}
+.col-md-4{
+    overflow: auto;
+}
+.light-hover,
+.light-hover2 {
+    transition: transform 500ms ease-in-out, color 500ms ease-in-out;
+}
+.light-hover {
+    transform-origin: left;
+}
+.light-hover:hover {
+    color: tomato;
+    transform: scale(1.05);
+}
+.light-hover:hover i{
+    color: tomato;
+    transform: scale(1.05);
+}
+.light-hover2 {
+    transform-origin: center; 
+}
+.light-hover2:hover {
+    color: tomato;
+    transform: scale(1.05) scaleX(1.05);
+}
+.light-hover-div {
+    transform-origin: left;
+    box-shadow: inset 0 0 5px 2px rgba(0, 0, 0, 0.1);
+    background-color: none;
+}
+.light-hover-div:hover {
+    box-shadow: inset 0 0 10px 3px rgba(0, 123, 255, 0.3), 0 0 10px 3px rgba(173, 216, 230, 0.5);
+}
+.hover-img{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    height: 50%;
+    transform: translate(-50%, -50%);
+    transition: 2s ease-in-out;
+}
+.hover-img2{
+    position: fixed;
+    top: 25%;
+    left: 25%;
+    display: none;
+    filter: invert(-1);
+}
+
+
